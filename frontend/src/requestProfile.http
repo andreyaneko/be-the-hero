@@ -1,0 +1,4 @@
+GET http://localhost:3333/profile
+Authorization: be521400
+
+

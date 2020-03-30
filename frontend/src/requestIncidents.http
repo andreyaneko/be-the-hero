@@ -1,0 +1,15 @@
+GET http://localhost:3333/incidents?page=1
+
+
+POST http://localhost:3333/incidents
+Content-Type: application/json
+Authorization: be521400
+
+{
+  "title": "Caso 1",
+  "description": "Detalhes do caso",
+  "value": "120"
+}
+
+DELETE http://localhost:3333/incidents/2
+Authorization: be521400

@@ -1,0 +1,17 @@
+GET  http://localhost:3333/ongs
+
+
+POST  http://localhost:3333/ongs 
+Content-Type: application/json
+
+{
+  "name": "APAD2",
+  "email": "contato@apad.com.br",
+  "whatsapp": "474747474747",
+  "city": "Rio do Sul",
+  "uf": "SC"
+}
+
+
+
+
