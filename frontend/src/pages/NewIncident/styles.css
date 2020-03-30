@@ -34,6 +34,7 @@
   font-size: 18px;
   color: #737380;
   line-height: 32px;
+  max-width: 340px;
 }
 
 .new-incident-container .content form {

@@ -78,9 +78,9 @@ export default function Register() {
             />
             <input
               placeholder="UF"
-              style={{ widht: 80 }}
               value={uf}
               onChange={e => setUf(e.target.value)}
+              style={{ widht: 80 }}
             />
           </div>
 
